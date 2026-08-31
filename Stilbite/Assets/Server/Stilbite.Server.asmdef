@@ -1,0 +1,19 @@
+{
+    "name": "Stilbite.Server",
+    "rootNamespace": "Stilbite",
+    "references": [
+        "Stilbite.Shared"
+    ],
+    "includePlatforms": [
+        "Editor",
+        "LinuxStandalone64Server"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

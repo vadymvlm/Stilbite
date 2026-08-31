@@ -1,0 +1,22 @@
+{
+    "name": "Stilbite.Shared",
+    "rootNamespace": "Stilbite",
+    "references": [
+        "Unity.Netcode.Runtime",
+        "FMODUnity"
+    ],
+    "includePlatforms": [
+        "Android",
+        "iOS",
+        "Editor",
+        "LinuxStandalone64Server"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

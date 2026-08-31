@@ -1,0 +1,16 @@
+# auto normalization
+* text=auto
+
+# lf normalization
+*.sln.DotSettings text eol=lf
+*.meta text eol=lf
+*.xml text eol=lf
+*.txt text eol=lf
+*.json text eol=lf
+*.asmdef text eol=lf
+*.asset text eol=lf
+*.asset.origin text eol=lf
+
+# FMOD
+Assets/Plugins/FMOD/**/*.bundle text eol=lf
+Assets/Plugins/FMOD/**/Info.plist text eol=lf

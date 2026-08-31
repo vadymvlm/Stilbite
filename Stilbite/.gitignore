@@ -1,0 +1,36 @@
+Library
+Logs
+Bin
+Obj
+Temp
+UserSettings
+
+.utmp
+.idea
+
+*.csproj
+*.sln
+*.log
+*.user
+*.sln.*.DotSettings
+
+# Test scenes and content
+Assets/Testing*
+
+# Ignores this to avoid exposing environment info (keys and names) to the public. In the future, a better approach should be found.
+ProjectSettings/ProjectSettings.asset
+ProjectSettings/Packages/com.unity.services.core/Settings.json
+
+# Streaming assets
+Assets/StreamingAssets*
+
+# FMOD
+# Assets/StreamingAssets/**/*.bank
+# Assets/StreamingAssets/**/*.bank.meta
+Assets/Plugins/FMOD/Cache*
+
+# Firebase
+GeneratedLocalRepo*
+Assets/Plugins/Android/FirebaseApp.androidlib*
+GoogleService-Info.plist*
+google-services.json*
