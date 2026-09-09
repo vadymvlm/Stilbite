@@ -1,0 +1,6 @@
+# auto normalization
+* text=auto
+
+# lf normalization
+*.sln.DotSettings text eol=lf
+*.json text eol=lf
