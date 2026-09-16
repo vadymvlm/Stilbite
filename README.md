@@ -17,7 +17,7 @@ After cloning the project, follow these steps:
    - iOS
    - Linux Dedicated Server
 2. Clone and remove the `.origin` suffix from [ProjectSettings.asset.origin](./Stilbite/ProjectSettings/ProjectSettings.asset.origin) to create `ProjectSettings.asset`.
-3. After making changes in the Project Settings, merge changes from `ProjectSettings.asset` into [ProjectSettings.asset.origin](./Stilbite/ProjectSettings/ProjectSettings.asset.origin), and set empty value for `organizationId:` `cloudProjectId:`.
+3. After making changes in the Project Settings, merge changes from `ProjectSettings.asset` into [ProjectSettings.asset.origin](./Stilbite/ProjectSettings/ProjectSettings.asset.origin), and set empty value for `organizationId` `cloudProjectId`.
 4. Add Firebase credentials.
 5. Connect to the Cloud Project and select the Editor environment.
 
