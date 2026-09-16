@@ -12,7 +12,7 @@ Third-person multiplayer 3D shooter for Android and iOS with online infrastructu
 ## Get Started
 
 Before cloning the project, follow these steps:
-1. Unity ([version](./Stilbite/ProjectSettings/ProjectVersion.txt)) with all required Build Support modules
+1. Install Unity ([version](./Stilbite/ProjectSettings/ProjectVersion.txt)) with all required Build Support modules
    - Android
    - iOS
    - Linux Dedicated Server
