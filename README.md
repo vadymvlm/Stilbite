@@ -17,15 +17,13 @@ After cloning the project, follow these steps:
    - iOS
    - Linux Dedicated Server
 2. Clone and remove the `.origin` suffix from [ProjectSettings.asset.origin](./Stilbite/ProjectSettings/ProjectSettings.asset.origin) to create `ProjectSettings.asset`.
-3. After making changes in the Project Settings, merge changes from `ProjectSettings.asset` into [ProjectSettings.asset.origin](./Stilbite/ProjectSettings/ProjectSettings.asset.origin), excluding any credentials.
+3. After making changes in the Project Settings, merge changes from `ProjectSettings.asset` into [ProjectSettings.asset.origin](./Stilbite/ProjectSettings/ProjectSettings.asset.origin), and set empty value for `organizationId:` `cloudProjectId:`.
 4. Add Firebase credentials.
 5. Connect to the Cloud Project and select the Editor environment.
 
 ## Source Navigation Overview
 
-- [Online](./Online): backend and battle servers online infrastructure.
-- [Backend](./Backend): metagame and push-notification services.
+- [Online](./Online): metagame and notification services, auto-scaled battle servers.
 - [Stilbite](./Stilbite): game client and/or headless/dedicated authoritative battle server.
    - [Shared](./Stilbite/Assets/Shared): core simulation and logic.
    - [Server](./Stilbite/Assets/Server): AI, behavior and specific logic.
-   - [Editor](./Stilbite/Assets/Editor): editor scripts.
