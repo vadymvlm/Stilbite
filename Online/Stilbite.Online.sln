@@ -1,10 +1,22 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Online", "Online\Online.csproj", "{DD6C176E-3759-437F-A199-E4E8F6C370C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleService", "BattleService\BattleService.csproj", "{EEBE43A6-76F2-4744-A7CF-97DF881FD6BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD6C176E-3759-437F-A199-E4E8F6C370C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD6C176E-3759-437F-A199-E4E8F6C370C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD6C176E-3759-437F-A199-E4E8F6C370C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD6C176E-3759-437F-A199-E4E8F6C370C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEBE43A6-76F2-4744-A7CF-97DF881FD6BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEBE43A6-76F2-4744-A7CF-97DF881FD6BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEBE43A6-76F2-4744-A7CF-97DF881FD6BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEBE43A6-76F2-4744-A7CF-97DF881FD6BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
