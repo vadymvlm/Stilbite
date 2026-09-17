@@ -25,9 +25,9 @@ After cloning the project, follow these steps:
 
 ## Source Navigation Overview
 
-- [Online](./Online): metagame and notification services, auto-scaled battle servers.
-   - [Online](./Online/Online): game online implementation.
-   - [BattleService](./Online/BattleService): dedicated authoritative battle server instances management.
-- [Stilbite](./Stilbite): game client and/or headless/dedicated authoritative battle server.
+- [Online](./Online): game online implementation.
+   - [Online](./Online/Online): metagame and notification services, auto-scaled battle servers.
+   - [BattleService](./Online/BattleService): dedicated authoritative battle instances management.
+- [Stilbite](./Stilbite): game client and/or headless/dedicated authoritative battle instance.
    - [Shared](./Stilbite/Assets/Shared): core simulation and logic.
    - [Server](./Stilbite/Assets/Server): AI, behavior and specific logic.
