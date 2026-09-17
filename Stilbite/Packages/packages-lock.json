@@ -70,7 +70,7 @@
       "url": "https://packages.unity.com"
     },
     "com.unity.multiplayer.tools": {
-      "version": "2.2.11",
+      "version": "2.2.12",
       "depth": 0,
       "source": "registry",
       "dependencies": {
@@ -169,7 +169,7 @@
       "source": "builtin",
       "dependencies": {
         "com.unity.render-pipelines.core": "17.3.0",
-        "com.unity.searcher": "4.9.3"
+        "com.unity.searcher": "4.9.5"
       }
     },
     "com.unity.sysroot.base": {
