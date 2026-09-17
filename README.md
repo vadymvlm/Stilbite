@@ -27,12 +27,11 @@ After cloning the project, follow these steps:
 
 ## Source Navigation Overview
 
-- [Online](./Online): game online implementation.
+1. [Online](./Online): game online implementation.
    - [Online](./Online/Online): metagame and notification services, auto-scaled battle servers (compute VMs).
    - [Shared](./Online/Shared): shared models between client and online.
    - [BattleService](./Online/BattleService): battle instances management.
 
-
-- [Stilbite](./Stilbite): game client and/or dedicated authoritative battle instance.
+2. [Stilbite](./Stilbite): game client and/or dedicated authoritative battle instance.
    - [Shared](./Stilbite/Assets/Shared): gameplay simulation and logic.
    - [Server](./Stilbite/Assets/Server): AI, behavior and specific logic.
